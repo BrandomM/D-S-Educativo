@@ -1,0 +1,42 @@
+{
+  "startNode": "n1",
+  "nodes": {
+    "n1": {
+      "id": "n1",
+      "icon": "🤔",
+      "title": "Situación inicial — [REEMPLAZAR]",
+      "promptFull": "Texto de la situación inicial (placeholder). Describe aquí el escenario o pregunta que el usuario debe evaluar. Reemplaza este texto con la situación educativa real.",
+      "promptEasy": "Texto fácil de la situación inicial (placeholder). Reemplaza con una pregunta sencilla y clara.",
+      "choices": [
+        {
+          "id": "c1",
+          "labelFull": "Opción A — [REEMPLAZAR: descripción de la opción]",
+          "labelEasy": "Opción A — [REEMPLAZAR: versión simple]",
+          "next": "n2"
+        },
+        {
+          "id": "c2",
+          "labelFull": "Opción B — [REEMPLAZAR: descripción de la opción]",
+          "labelEasy": "Opción B — [REEMPLAZAR: versión simple]",
+          "next": "n3"
+        }
+      ]
+    },
+    "n2": {
+      "id": "n2",
+      "icon": "✅",
+      "title": "Resultado A — [REEMPLAZAR]",
+      "promptFull": "Texto del Resultado A (placeholder). Explica aquí las implicaciones, consecuencias o recomendaciones que corresponden a la Opción A. Reemplaza con contenido educativo real.",
+      "promptEasy": "Resultado A en palabras fáciles (placeholder). Reemplaza con explicación breve y sencilla.",
+      "choices": []
+    },
+    "n3": {
+      "id": "n3",
+      "icon": "🔄",
+      "title": "Resultado B — [REEMPLAZAR]",
+      "promptFull": "Texto del Resultado B (placeholder). Explica aquí las implicaciones, consecuencias o recomendaciones que corresponden a la Opción B. Reemplaza con contenido educativo real.",
+      "promptEasy": "Resultado B en palabras fáciles (placeholder). Reemplaza con explicación breve y sencilla.",
+      "choices": []
+    }
+  }
+}

@@ -1,0 +1,125 @@
+
+Actúa como un ingeniero front-end senior. Necesito que generes un proyecto completo (archivos y código) para una SPA estática (sin backend) hecha en HTML/CSS/JS vanilla, desplegable en GitHub Pages. La app es un prototipo educativo accesible para población con discapacidad auditiva (jóvenes universitarios) y debe evitar cualquier contenido sexual explícito: usa placeholders neutrales (ej. “Tema 1”, “Concepto A”, “Situación ejemplo (placeholder)”) y deja claro dónde el usuario debe reemplazar el contenido.
+
+OBJETIVO GENERAL
+- Crear una SPA con hash routing con 3 vistas:
+  1) Inicio: #/
+  2) Ruta por audiencia: #/ruta/:audiencia (estudiante | familia | docente)
+  3) Recurso (árbol de decisiones): #/recurso (incluye una sección colapsable de “Fuentes y créditos”)
+
+RESTRICCIONES
+- No frameworks (no React/Vue/Angular). No build steps obligatorios.
+- Todo debe funcionar en GitHub Pages con rutas relativas (no usar rutas absolutas tipo /assets).
+- Máximo 3 nodos en el árbol de decisiones (n1, n2, n3). Debe existir un nodo inicial y al menos dos resultados.
+- Evitar gamificación: no puntajes, no rankings, no “correcto/incorrecto”.
+- No usar contenido de educación sexual explícito. Solo placeholders neutrales.
+
+REQUERIMIENTOS FUNCIONALES
+A) Hash Router
+- Implementar navegación por hash:
+  - #/ => render Inicio
+  - #/ruta/estudiante => render Ruta con contenido para estudiante
+  - #/ruta/familia => render Ruta con contenido para familia
+  - #/ruta/docente => render Ruta con contenido para docente
+  - #/recurso => render módulo Árbol + acordeón de Fuentes
+- Si el hash es inválido, redirigir a #/.
+
+B) Selector de audiencia
+- En Inicio, mostrar 3 tarjetas/botones para elegir audiencia.
+- Al elegir, navegar a #/ruta/:audiencia.
+
+C) Contenido por audiencia (placeholders)
+- En la vista Ruta, mostrar un conjunto de “cards” con:
+  - icono (svg o emoji si no hay icono)
+  - título
+  - texto completo (placeholder)
+  - texto fácil (placeholder)
+- Debe existir un botón “Abrir recurso interactivo” que navegue a #/recurso.
+
+D) Modo “Texto fácil” (toggle global)
+- Toggle visible en header en TODAS las vistas.
+- Al activarlo, reemplaza textos por su versión “textEasy”.
+- Persistir preferencia en localStorage.
+- Debe afectar cards y texto del árbol de decisiones.
+
+E) Glosario (tooltip o modal)
+- Debe existir un pequeño glosario con 3 términos placeholder.
+- En los textos de cards, marca términos entre corchetes o con un patrón (por ejemplo: {glosario:termino1}) y conviértelos en links/botones que abran una ventana accesible con:
+  - definición fácil
+  - definición completa
+- El modal/tooltip debe ser accesible: cerrar con ESC, devolver foco al activador.
+
+F) Recurso adaptado principal: Árbol de decisiones (máximo 3 nodos)
+- Cargar el árbol desde un JSON (no hardcodearlo).
+- Estructura:
+  - n1 (inicio) con 2 opciones que llevan a n2 y n3
+  - n2 (resultado) sin opciones o con botón “Reiniciar”
+  - n3 (resultado) sin opciones o con botón “Reiniciar”
+- Debe haber botones: “Volver” (historial) y “Reiniciar”.
+- Debe ser accesible para teclado.
+- Para cambios de nodo, usar aria-live="polite" en el contenedor del texto para lectura por lector de pantalla.
+
+G) Accesibilidad y UX mínima
+- Alto contraste, tipografía legible, tamaños cómodos.
+- :focus-visible definido claramente.
+- Respetar prefers-reduced-motion.
+- Botones grandes en móvil.
+- No depender de audio en ningún punto.
+
+ARQUITECTURA / ARCHIVOS
+Genera esta estructura y entrega el código por archivo:
+
+/
+  index.html
+  assets/
+    css/
+      main.css
+    js/
+      app.js
+      router.js
+      store.js
+      views.js
+      decisionTree.js
+      glossary.js
+      utils.js
+  data/
+    content.es.json
+    decision-tree.es.json
+  README.md
+
+DETALLES DE DATOS (JSON)
+- data/content.es.json debe incluir:
+  - ui strings (labels, botones)
+  - routes (estudiante/familia/docente)
+  - cards por audiencia con textFull y textEasy (placeholders)
+  - glossary: 3 términos con definitionFull y definitionEasy (placeholders)
+- data/decision-tree.es.json debe incluir 3 nodos máximo, con:
+  - title, promptFull, promptEasy, icon, choices[] (labelFull/labelEasy, next)
+
+IMPLEMENTACIÓN
+- app.js: arranque, carga JSONs con fetch, inicializa store, escucha hashchange.
+- store.js: estado global (audiencia actual, easyText boolean, datos cargados, historial árbol).
+- router.js: parsea hash y llama a la vista correspondiente.
+- views.js: render de Inicio y Ruta (audiencia).
+- decisionTree.js: render del árbol, historial, back/restart, aria-live.
+- glossary.js: parsea textos para detectar tokens de glosario y crea enlaces; maneja modal accesible.
+- utils.js: helpers (qs, createEl, escapeHTML si aplica, etc).
+
+CRITERIOS DE ACEPTACIÓN
+- Abrir index.html localmente y navegar entre vistas sin errores.
+- Toggle texto fácil persiste al recargar.
+- Modal glosario accesible (ESC, foco).
+- Árbol de 3 nodos funciona: iniciar -> escoger -> resultado -> reiniciar / volver.
+- Compatible con GitHub Pages (rutas relativas).
+
+ENTREGA
+1) Proporciona el contenido de cada archivo en bloques de código separados, indicando el nombre del archivo antes de cada bloque.
+2) Incluye instrucciones en README para desplegar en GitHub Pages.
+3) Incluye notas de “dónde reemplazar placeholders” sin introducir contenido sensible.
+4) Crea un CLAUDE.md con toda la información relevante para la memoriad el proyecto.
+5) Creaun ROADMAP.md que nos permita llevar un control de los hitos del proyecto.
+
+IMPORTANTE
+- No inventes contenido de educación sexual; usa placeholders neutrales.
+- Prioriza claridad y simplicidad del código.
+- Donde se requieran imágenes solo deja un placeholder y un texto que indique el código que debería llevar esa imagen en la carpeta de assets.

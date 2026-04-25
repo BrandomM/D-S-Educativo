@@ -1,0 +1,167 @@
+{
+  "ui": {
+    "appName": "D&S Educativo",
+    "toggleEasyLabel": "Texto fácil",
+    "toggleEasyOn": "ON",
+    "toggleEasyOff": "OFF",
+    "backBtn": "Volver",
+    "restartBtn": "Reiniciar",
+    "openResource": "Abrir recurso interactivo",
+    "sourcesTitle": "Fuentes y créditos",
+    "homeTitle": "Bienvenido",
+    "homeSubtitle": "Elige tu perfil para comenzar",
+    "chooseAudience": "¿Quién eres?",
+    "glossaryTitle": "Glosario",
+    "glossaryClose": "Cerrar glosario",
+    "loading": "Cargando contenido…",
+    "errorLoad": "Error al cargar el contenido. Intenta recargar la página.",
+    "invalidRoute": "Ruta no encontrada. Redirigiendo al inicio…"
+  },
+  "audiences": [
+    {
+      "id": "estudiante",
+      "label": "Estudiante",
+      "labelEasy": "Soy estudiante",
+      "icon": "🎓",
+      "description": "Recursos pensados para ti como estudiante universitario.",
+      "descriptionEasy": "Aquí hay información para ti, si eres estudiante."
+    },
+    {
+      "id": "familia",
+      "label": "Familia",
+      "labelEasy": "Soy familiar",
+      "icon": "🏠",
+      "description": "Información para acompañar a un familiar con discapacidad auditiva.",
+      "descriptionEasy": "Aquí hay información para tu familia."
+    },
+    {
+      "id": "docente",
+      "label": "Docente",
+      "labelEasy": "Soy docente",
+      "icon": "📚",
+      "description": "Orientaciones pedagógicas para abordar estos temas en el aula.",
+      "descriptionEasy": "Aquí hay información para docentes."
+    }
+  ],
+  "routes": {
+    "estudiante": {
+      "title": "Ruta para Estudiantes",
+      "titleEasy": "Información para Estudiantes",
+      "intro": "A continuación encontrarás recursos organizados para tu proceso formativo.",
+      "introEasy": "Aquí hay temas importantes para ti.",
+      "cards": [
+        {
+          "id": "est-1",
+          "icon": "📖",
+          "title": "Tema 1 — [REEMPLAZAR: nombre del tema]",
+          "titleEasy": "Tema 1 — [REEMPLAZAR]",
+          "textFull": "Descripción completa del Tema 1. {glosario:concepto_a} Este es un placeholder. Reemplaza este texto con contenido educativo relevante para estudiantes universitarios con discapacidad auditiva sobre el tema correspondiente.",
+          "textEasy": "Texto fácil del Tema 1. Usa palabras simples. Reemplaza este texto con una explicación sencilla."
+        },
+        {
+          "id": "est-2",
+          "icon": "💡",
+          "title": "Tema 2 — [REEMPLAZAR: nombre del tema]",
+          "titleEasy": "Tema 2 — [REEMPLAZAR]",
+          "textFull": "Descripción completa del Tema 2. {glosario:concepto_b} Placeholder: reemplaza con contenido educativo adecuado para la audiencia estudiantil.",
+          "textEasy": "Texto fácil del Tema 2. Reemplaza con explicación breve y clara."
+        },
+        {
+          "id": "est-3",
+          "icon": "🔍",
+          "title": "Situación ejemplo — [REEMPLAZAR]",
+          "titleEasy": "Ejemplo — [REEMPLAZAR]",
+          "textFull": "Situación ejemplo (placeholder). Describe aquí un escenario educativo real relacionado con el tema. {glosario:concepto_c} Reemplaza con un caso o situación concreta.",
+          "textEasy": "Ejemplo sencillo. Reemplaza con una historia corta y fácil de entender."
+        }
+      ]
+    },
+    "familia": {
+      "title": "Ruta para Familias",
+      "titleEasy": "Información para Familias",
+      "intro": "Recursos para acompañar y apoyar a un familiar con discapacidad auditiva.",
+      "introEasy": "Información para ayudar a tu familiar.",
+      "cards": [
+        {
+          "id": "fam-1",
+          "icon": "🤝",
+          "title": "Concepto A — [REEMPLAZAR: nombre del concepto]",
+          "titleEasy": "Concepto A — [REEMPLAZAR]",
+          "textFull": "Explicación del Concepto A para familias. {glosario:concepto_a} Placeholder: reemplaza con información relevante para acompañantes familiares.",
+          "textEasy": "Concepto A en palabras fáciles. Reemplaza con texto sencillo para familias."
+        },
+        {
+          "id": "fam-2",
+          "icon": "❤️",
+          "title": "Concepto B — [REEMPLAZAR: nombre del concepto]",
+          "titleEasy": "Concepto B — [REEMPLAZAR]",
+          "textFull": "Explicación del Concepto B para familias. {glosario:concepto_b} Placeholder: incluye orientaciones prácticas para el entorno familiar.",
+          "textEasy": "Concepto B en palabras fáciles. Reemplaza con orientación práctica breve."
+        },
+        {
+          "id": "fam-3",
+          "icon": "🌱",
+          "title": "Recomendación — [REEMPLAZAR]",
+          "titleEasy": "Recomendación — [REEMPLAZAR]",
+          "textFull": "Recomendación práctica (placeholder). Reemplaza con orientaciones concretas para familias. {glosario:concepto_c}",
+          "textEasy": "Recomendación sencilla. Reemplaza con consejo claro y breve."
+        }
+      ]
+    },
+    "docente": {
+      "title": "Ruta para Docentes",
+      "titleEasy": "Información para Docentes",
+      "intro": "Orientaciones pedagógicas para abordar estos temas con inclusión y respeto.",
+      "introEasy": "Información para enseñar estos temas en clase.",
+      "cards": [
+        {
+          "id": "doc-1",
+          "icon": "🏫",
+          "title": "Estrategia 1 — [REEMPLAZAR: nombre de la estrategia]",
+          "titleEasy": "Estrategia 1 — [REEMPLAZAR]",
+          "textFull": "Descripción de la Estrategia Pedagógica 1. {glosario:concepto_a} Placeholder: reemplaza con una estrategia didáctica concreta para abordar el tema en el aula universitaria.",
+          "textEasy": "Estrategia 1 en palabras fáciles. Reemplaza con pasos simples para enseñar."
+        },
+        {
+          "id": "doc-2",
+          "icon": "✏️",
+          "title": "Estrategia 2 — [REEMPLAZAR: nombre de la estrategia]",
+          "titleEasy": "Estrategia 2 — [REEMPLAZAR]",
+          "textFull": "Descripción de la Estrategia Pedagógica 2. {glosario:concepto_b} Placeholder: incluye recursos, tiempos y materiales necesarios.",
+          "textEasy": "Estrategia 2 en palabras fáciles. Reemplaza con descripción breve."
+        },
+        {
+          "id": "doc-3",
+          "icon": "📊",
+          "title": "Recurso de aula — [REEMPLAZAR]",
+          "titleEasy": "Recurso de aula — [REEMPLAZAR]",
+          "textFull": "Recurso de aula (placeholder). Describe aquí una actividad, guía o material concreto. {glosario:concepto_c} Reemplaza con el recurso real.",
+          "textEasy": "Recurso sencillo. Reemplaza con descripción corta del recurso."
+        }
+      ]
+    }
+  },
+  "glossary": {
+    "concepto_a": {
+      "term": "Concepto A",
+      "definitionFull": "Definición completa del Concepto A (placeholder). Reemplaza con la definición académica o técnica del término relevante para el tema educativo.",
+      "definitionEasy": "Concepto A en palabras fáciles (placeholder). Reemplaza con una explicación breve y sencilla."
+    },
+    "concepto_b": {
+      "term": "Concepto B",
+      "definitionFull": "Definición completa del Concepto B (placeholder). Reemplaza con la definición del segundo término clave.",
+      "definitionEasy": "Concepto B en palabras fáciles (placeholder). Reemplaza con una explicación corta."
+    },
+    "concepto_c": {
+      "term": "Concepto C",
+      "definitionFull": "Definición completa del Concepto C (placeholder). Reemplaza con la definición del tercer término importante.",
+      "definitionEasy": "Concepto C en palabras fáciles (placeholder). Reemplaza con explicación sencilla."
+    }
+  },
+  "sources": [
+    "Fuente 1 — [REEMPLAZAR: autor, título, año, URL si aplica]",
+    "Fuente 2 — [REEMPLAZAR: autor, título, año, URL si aplica]",
+    "Fuente 3 — [REEMPLAZAR: autor, título, año, URL si aplica]",
+    "Créditos de accesibilidad — [REEMPLAZAR: herramientas o guías de accesibilidad usadas]"
+  ]
+}
