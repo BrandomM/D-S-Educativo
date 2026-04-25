@@ -1,6 +1,6 @@
 {
   "ui": {
-    "appName": "D&S Educativo",
+    "appName": "Señas de Vida",
     "toggleEasyLabel": "Texto fácil",
     "toggleEasyOn": "ON",
     "toggleEasyOff": "OFF",
@@ -8,7 +8,7 @@
     "restartBtn": "Reiniciar",
     "openResource": "Abrir recurso interactivo",
     "sourcesTitle": "Fuentes y créditos",
-    "homeTitle": "Bienvenido",
+    "homeTitle": "Bienvenido a Señas de Vida",
     "homeSubtitle": "Elige tu perfil para comenzar",
     "chooseAudience": "¿Quién eres?",
     "glossaryTitle": "Glosario",
@@ -23,7 +23,7 @@
       "label": "Estudiante",
       "labelEasy": "Soy estudiante",
       "icon": "🎓",
-      "description": "Recursos pensados para ti como estudiante universitario.",
+      "description": "Recursos pensados para ti como estudiante universitario sordo o con discapacidad auditiva.",
       "descriptionEasy": "Aquí hay información para ti, si eres estudiante."
     },
     {
@@ -31,7 +31,7 @@
       "label": "Familia",
       "labelEasy": "Soy familiar",
       "icon": "🏠",
-      "description": "Información para acompañar a un familiar con discapacidad auditiva.",
+      "description": "Información para acompañar a un familiar con discapacidad auditiva en su vida universitaria y afectivo-sexual.",
       "descriptionEasy": "Aquí hay información para tu familia."
     },
     {
@@ -39,129 +39,135 @@
       "label": "Docente",
       "labelEasy": "Soy docente",
       "icon": "📚",
-      "description": "Orientaciones pedagógicas para abordar estos temas en el aula.",
-      "descriptionEasy": "Aquí hay información para docentes."
+      "description": "Orientaciones pedagógicas y marco legal para abordar educación sexual con estudiantes sordos en la universidad.",
+      "descriptionEasy": "Aquí hay información para docentes universitarios."
     }
   ],
   "routes": {
     "estudiante": {
       "title": "Ruta para Estudiantes",
       "titleEasy": "Información para Estudiantes",
-      "intro": "A continuación encontrarás recursos organizados para tu proceso formativo.",
-      "introEasy": "Aquí hay temas importantes para ti.",
+      "intro": "Aquí encuentras información sobre tu cuerpo, tus derechos sexuales y tu identidad como persona sorda universitaria.",
+      "introEasy": "Aquí hay temas importantes para ti: tu cuerpo, tus derechos y tu identidad.",
       "cards": [
         {
           "id": "est-1",
           "icon": "📖",
-          "title": "Tema 1 — [REEMPLAZAR: nombre del tema]",
-          "titleEasy": "Tema 1 — [REEMPLAZAR]",
-          "textFull": "Descripción completa del Tema 1. {glosario:concepto_a} Este es un placeholder. Reemplaza este texto con contenido educativo relevante para estudiantes universitarios con discapacidad auditiva sobre el tema correspondiente.",
-          "textEasy": "Texto fácil del Tema 1. Usa palabras simples. Reemplaza este texto con una explicación sencilla."
+          "title": "Tu cuerpo, tus derechos",
+          "titleEasy": "Tus derechos sexuales",
+          "textFull": "La educación sexual es un derecho humano que incluye a todas las personas, también a quienes usan la {glosario:lsc}. Los estudios muestran que más de la mitad de los jóvenes sordos son sexualmente activos antes de los 18 años, pero muchos nunca recibieron información sobre anticonceptivos o prevención de infecciones de transmisión sexual. Acceder a información sobre tu cuerpo y tu sexualidad en tu propia lengua no es un privilegio: es un derecho reconocido por la Convención sobre los Derechos de las Personas con Discapacidad (CDPD, ONU 2006). Si en tu universidad no existe este recurso, tienes derecho a exigirlo.",
+          "textEasy": "Aprender sobre sexualidad es un derecho tuyo. Tienes derecho a recibir esa información en LSC. Si en tu universidad no hay ese apoyo, puedes pedirlo."
         },
         {
           "id": "est-2",
           "icon": "💡",
-          "title": "Tema 2 — [REEMPLAZAR: nombre del tema]",
-          "titleEasy": "Tema 2 — [REEMPLAZAR]",
-          "textFull": "Descripción completa del Tema 2. {glosario:concepto_b} Placeholder: reemplaza con contenido educativo adecuado para la audiencia estudiantil.",
-          "textEasy": "Texto fácil del Tema 2. Reemplaza con explicación breve y clara."
+          "title": "Consentimiento y relaciones seguras",
+          "titleEasy": "Decir SÍ o NO libremente",
+          "textFull": "El consentimiento es el acuerdo libre e informado entre dos personas antes de cualquier contacto sexual. Las investigaciones indican que cerca del 24% de jóvenes con discapacidad auditiva reportaron que su primer encuentro sexual fue forzado, en muchos casos por su propia pareja. Tienes derecho a decir NO en cualquier momento y con cualquier persona. Si alguien ignora tu NO, eso es abuso. Puedes buscar ayuda en bienestar universitario, con un docente de confianza o a través de una línea de atención. El {glosario:modelo_social} nos recuerda que el problema nunca eres tú: son los entornos que no te protegen.",
+          "textEasy": "Consentir significa decir SÍ con libertad. Tienes derecho a decir NO siempre. Si alguien te forzó, eso es abuso y puedes pedir ayuda."
         },
         {
           "id": "est-3",
           "icon": "🔍",
-          "title": "Situación ejemplo — [REEMPLAZAR]",
-          "titleEasy": "Ejemplo — [REEMPLAZAR]",
-          "textFull": "Situación ejemplo (placeholder). Describe aquí un escenario educativo real relacionado con el tema. {glosario:concepto_c} Reemplaza con un caso o situación concreta.",
-          "textEasy": "Ejemplo sencillo. Reemplaza con una historia corta y fácil de entender."
+          "title": "Tu identidad como persona sorda",
+          "titleEasy": "Quién eres: identidad sorda",
+          "textFull": "Ser sordo/a no es solo una condición médica: eres parte de una comunidad lingüística y cultural con historia, valores y lengua propios. La {glosario:lsc} es tu lengua materna, no un apoyo de segunda categoría. Tu identidad sorda se construye en la relación con tus pares sordos, con tu comunidad y con el uso cotidiano de tu lengua. Esta identidad incluye también tu sexualidad: tienes derecho a vivirla libremente, a construir relaciones afectivas plenas y a acceder a información sobre salud sexual en tu propia lengua. Conocer tu identidad fortalece tu autoestima y tu capacidad de tomar decisiones sobre tu cuerpo.",
+          "textEasy": "Eres parte de una comunidad con su propia lengua y cultura. Tu identidad sorda es algo valioso. También tienes derecho a vivir tu sexualidad con libertad."
         }
       ]
     },
     "familia": {
       "title": "Ruta para Familias",
       "titleEasy": "Información para Familias",
-      "intro": "Recursos para acompañar y apoyar a un familiar con discapacidad auditiva.",
-      "introEasy": "Información para ayudar a tu familiar.",
+      "intro": "Información para acompañar a tu familiar sordo/a en su desarrollo afectivo-sexual y en su vida universitaria.",
+      "introEasy": "Información para ayudar a tu familiar sordo/a.",
       "cards": [
         {
           "id": "fam-1",
           "icon": "🤝",
-          "title": "Concepto A — [REEMPLAZAR: nombre del concepto]",
-          "titleEasy": "Concepto A — [REEMPLAZAR]",
-          "textFull": "Explicación del Concepto A para familias. {glosario:concepto_a} Placeholder: reemplaza con información relevante para acompañantes familiares.",
-          "textEasy": "Concepto A en palabras fáciles. Reemplaza con texto sencillo para familias."
+          "title": "Etapas de aceptación",
+          "titleEasy": "Cómo sienten las familias",
+          "textFull": "Cuando una familia descubre que un hijo/a es sordo/a, atraviesa cinco etapas: confusión, negación (búsqueda de curas), tristeza y depresión, aceptación, y finalmente reorganización y reafirmación. Este proceso es normal y no ocurre igual en todas las familias. El paso más transformador es la reorganización: cuando la familia aprende la {glosario:lsc} y se vincula con la comunidad sorda. En ese momento el niño o niña sordo/a encuentra modelos de adultos sordos, desarrolla su identidad lingüística y mejora su bienestar emocional. No hay amor más efectivo que comunicarse de verdad con tu hijo/a.",
+          "textEasy": "Las familias sienten muchas emociones al descubrir la sordera. Eso es normal. El paso más importante es aprender LSC para hablar de verdad con tu hijo/a."
         },
         {
           "id": "fam-2",
           "icon": "❤️",
-          "title": "Concepto B — [REEMPLAZAR: nombre del concepto]",
-          "titleEasy": "Concepto B — [REEMPLAZAR]",
-          "textFull": "Explicación del Concepto B para familias. {glosario:concepto_b} Placeholder: incluye orientaciones prácticas para el entorno familiar.",
-          "textEasy": "Concepto B en palabras fáciles. Reemplaza con orientación práctica breve."
+          "title": "Comunicar en LSC desde casa",
+          "titleEasy": "Por qué aprender LSC en casa",
+          "textFull": "El 95% de los niños sordos nace en familias oyentes. Sin la {glosario:lsc} en casa, el niño sordo solo puede aprender lo que está en su campo visual inmediato: no comprende conceptos abstractos, normas ni advertencias de peligro, y no puede hacer preguntas sobre su cuerpo o sus emociones. Esto genera una {glosario:privacion_linguistica} con consecuencias graves para su desarrollo. Aprender LSC no es solo una herramienta de comunicación: es garantizar que tu hijo/a tenga una primera lengua completa. La Ley 982 de 2005 en Colombia obliga al gobierno a financiar programas para que padres oyentes de hijos sordos aprendan LSC. Puedes solicitarlo en tu municipio o institución educativa.",
+          "textEasy": "Sin LSC en casa, tu hijo/a no puede aprender conceptos importantes. Aprender LSC juntos es lo más valioso que puedes hacer. En Colombia hay programas gratuitos para familias."
         },
         {
           "id": "fam-3",
           "icon": "🌱",
-          "title": "Recomendación — [REEMPLAZAR]",
-          "titleEasy": "Recomendación — [REEMPLAZAR]",
-          "textFull": "Recomendación práctica (placeholder). Reemplaza con orientaciones concretas para familias. {glosario:concepto_c}",
-          "textEasy": "Recomendación sencilla. Reemplaza con consejo claro y breve."
+          "title": "Hablar de sexualidad en familia",
+          "titleEasy": "Cómo hablar de sexualidad",
+          "textFull": "Hablar de sexualidad con un hijo/a sordo/a es posible y necesario. Los estudios muestran que los jóvenes con discapacidad auditiva reciben muy poca educación sexual en casa, lo que los hace más vulnerables al abuso y a conductas de riesgo. No necesitas ser experto/a: empieza nombrando las partes del cuerpo correctamente y construye un espacio donde tu hijo/a pueda hacer preguntas sin miedo. El {glosario:modelo_social} nos enseña que los problemas no están en él o en ella, sino en los entornos que no ofrecen información accesible. Si no sabes cómo hacerlo en LSC, busca intérpretes, videos con señas o apoya a tu hijo/a para usar esta app.",
+          "textEasy": "Puedes hablar de sexualidad con tu hijo/a sordo/a. Usa imágenes y LSC. Crea un espacio donde pueda hacer preguntas sin miedo."
         }
       ]
     },
     "docente": {
       "title": "Ruta para Docentes",
       "titleEasy": "Información para Docentes",
-      "intro": "Orientaciones pedagógicas para abordar estos temas con inclusión y respeto.",
-      "introEasy": "Información para enseñar estos temas en clase.",
+      "intro": "Orientaciones pedagógicas y marco legal para garantizar educación sexual inclusiva y accesible para estudiantes sordos.",
+      "introEasy": "Información para enseñar educación sexual de forma inclusiva.",
       "cards": [
         {
           "id": "doc-1",
           "icon": "🏫",
-          "title": "Estrategia 1 — [REEMPLAZAR: nombre de la estrategia]",
-          "titleEasy": "Estrategia 1 — [REEMPLAZAR]",
-          "textFull": "Descripción de la Estrategia Pedagógica 1. {glosario:concepto_a} Placeholder: reemplaza con una estrategia didáctica concreta para abordar el tema en el aula universitaria.",
-          "textEasy": "Estrategia 1 en palabras fáciles. Reemplaza con pasos simples para enseñar."
+          "title": "Marco legal colombiano",
+          "titleEasy": "Las leyes que protegen a tus estudiantes",
+          "textFull": "Como docente universitario/a en Colombia tienes obligaciones legales concretas. La Ley 324/1996 reconoce la {glosario:lsc} como lengua natural de las personas sordas. La Ley 982/2005 prohíbe toda discriminación por identidad lingüística (Art. 34). La Ley 1618/2013 garantiza el pleno ejercicio de derechos de personas con discapacidad. La Ley 2049/2020 creó el Consejo Nacional de Planeación de la LSC con representantes de estudiantes universitarios sordos. El {glosario:modelo_social} que sustenta esta legislación te indica que el reto no es rehabilitar al estudiante, sino eliminar las barreras del entorno. Conocer el marco legal es el primer paso para transformar la práctica pedagógica.",
+          "textEasy": "En Colombia hay leyes que protegen a tus estudiantes sordos. Debes respetar su derecho a comunicarse en LSC. Si no hay intérprete, puedes exigirlo a la institución."
         },
         {
           "id": "doc-2",
           "icon": "✏️",
-          "title": "Estrategia 2 — [REEMPLAZAR: nombre de la estrategia]",
-          "titleEasy": "Estrategia 2 — [REEMPLAZAR]",
-          "textFull": "Descripción de la Estrategia Pedagógica 2. {glosario:concepto_b} Placeholder: incluye recursos, tiempos y materiales necesarios.",
-          "textEasy": "Estrategia 2 en palabras fáciles. Reemplaza con descripción breve."
+          "title": "Diseño Universal para educación sexual accesible",
+          "titleEasy": "Cómo enseñar de forma accesible",
+          "textFull": "Aplicar el Diseño Universal de Aprendizaje en educación sexual con estudiantes sordos implica al menos cuatro ajustes: usar vídeos con intérprete de {glosario:lsc} y no solo texto escrito; garantizar buena iluminación y posicionamiento frontal en el aula; ofrecer instrucciones en formatos múltiples (visual, texto fácil, señado); y solicitar intérprete certificado para sesiones sobre salud sexual. Las investigaciones en Chile y México confirman que el vídeo con intérprete de lengua de señas es la fuente de información más efectiva para esta población. Prevenir la {glosario:privacion_linguistica} también ocurre en el aula universitaria cuando garantizas acceso comunicativo real.",
+          "textEasy": "Para enseñar sobre sexualidad a estudiantes sordos usa videos con intérprete de LSC. Asegura buena iluminación en el aula. Habla siempre de frente para que puedan verte bien."
         },
         {
           "id": "doc-3",
           "icon": "📊",
-          "title": "Recurso de aula — [REEMPLAZAR]",
-          "titleEasy": "Recurso de aula — [REEMPLAZAR]",
-          "textFull": "Recurso de aula (placeholder). Describe aquí una actividad, guía o material concreto. {glosario:concepto_c} Reemplaza con el recurso real.",
-          "textEasy": "Recurso sencillo. Reemplaza con descripción corta del recurso."
+          "title": "Mitos sobre la sexualidad de personas sordas",
+          "titleEasy": "Ideas falsas que debemos cambiar",
+          "textFull": "El mito más dañino es que las personas sordas son asexuales o tienen menor interés en la sexualidad. Los datos contradicen esto: más del 53% de jóvenes con discapacidad auditiva son sexualmente activos, muchos antes de los 18 años y con bajo uso de anticonceptivos. Este mito genera una doble exclusión: los docentes no incluyen educación sexual en sus programas y las familias no hablan del tema. Desde el {glosario:modelo_social}, la CDPD establece que negar entornos educativos apropiados —incluyendo educación sexual accesible— a estudiantes sordos es discriminación directa. Incluir estos contenidos en el aula no es opcional: es una obligación ética y legal.",
+          "textEasy": "Las personas sordas sí tienen sexualidad, como todas las personas. No hablar de esto en clase es una forma de discriminación. Incluye educación sexual con intérprete de LSC."
         }
       ]
     }
   },
   "glossary": {
-    "concepto_a": {
-      "term": "Concepto A",
-      "definitionFull": "Definición completa del Concepto A (placeholder). Reemplaza con la definición académica o técnica del término relevante para el tema educativo.",
-      "definitionEasy": "Concepto A en palabras fáciles (placeholder). Reemplaza con una explicación breve y sencilla."
+    "lsc": {
+      "term": "Lengua de Señas Colombiana (LSC)",
+      "definitionFull": "La Lengua de Señas Colombiana (LSC) es la lengua natural y materna de la comunidad sorda colombiana. Es una lengua viso-gestual con gramática, léxico y sintaxis propios, independiente del español. Fue reconocida por primera vez en la Ley 324 de 1996 y su planificación está a cargo del Consejo Nacional de Planeación de la LSC creado por la Ley 2049 de 2020. La LSC no es un 'apoyo' ni una herramienta auxiliar: es el primer idioma de las personas sordas y el eje de su identidad lingüística y cultural.",
+      "definitionEasy": "La LSC es la lengua de las personas sordas en Colombia. Es una lengua completa con sus propias reglas. No es el español con las manos."
     },
-    "concepto_b": {
-      "term": "Concepto B",
-      "definitionFull": "Definición completa del Concepto B (placeholder). Reemplaza con la definición del segundo término clave.",
-      "definitionEasy": "Concepto B en palabras fáciles (placeholder). Reemplaza con una explicación corta."
+    "modelo_social": {
+      "term": "Modelo social de discapacidad",
+      "definitionFull": "El modelo social de discapacidad plantea que las barreras que enfrentan las personas con discapacidad no provienen de su condición física o sensorial, sino de la interacción con entornos sociales, educativos y comunicativos que no están diseñados para incluirlas. En el caso de las personas sordas, el problema no es la pérdida auditiva sino la ausencia de lengua de señas, intérpretes y materiales accesibles. Este modelo, adoptado por la Convención sobre los Derechos de las Personas con Discapacidad (CDPD, ONU 2006), obliga a rediseñar los entornos, no a 'rehabilitar' a las personas.",
+      "definitionEasy": "El modelo social dice que el problema no está en la persona sorda. El problema está en los entornos que no son accesibles. La solución es cambiar el entorno, no a la persona."
     },
-    "concepto_c": {
-      "term": "Concepto C",
-      "definitionFull": "Definición completa del Concepto C (placeholder). Reemplaza con la definición del tercer término importante.",
-      "definitionEasy": "Concepto C en palabras fáciles (placeholder). Reemplaza con explicación sencilla."
+    "privacion_linguistica": {
+      "term": "Privación lingüística",
+      "definitionFull": "La privación lingüística es el conjunto de consecuencias psicosociales y cognitivas graves que resultan de no haber tenido acceso a una primera lengua completa durante el período crítico de desarrollo del lenguaje (aproximadamente los primeros 7 años de vida). En niños sordos que crecen sin acceso a la lengua de señas ni al lenguaje oral, la privación lingüística puede afectar la memoria, el pensamiento abstracto, el desarrollo emocional y la capacidad de comunicarse de forma plena. Se previene garantizando acceso temprano a la lengua de señas nacional desde el nacimiento.",
+      "definitionEasy": "La privación lingüística ocurre cuando un niño o niña no aprende ninguna lengua de pequeño. Esto afecta su desarrollo mental y emocional. Se previene enseñando LSC desde el nacimiento."
     }
   },
   "sources": [
-    "Fuente 1 — [REEMPLAZAR: autor, título, año, URL si aplica]",
-    "Fuente 2 — [REEMPLAZAR: autor, título, año, URL si aplica]",
-    "Fuente 3 — [REEMPLAZAR: autor, título, año, URL si aplica]",
-    "Créditos de accesibilidad — [REEMPLAZAR: herramientas o guías de accesibilidad usadas]"
+    "Druet Domínguez, N. V., & Escalante Torres, R. H. (2000). Conocimientos y actitudes hacia la sexualidad de jóvenes con discapacidad auditiva. Educación y Ciencia, 4(7), 57-69.",
+    "Robles, S. S. y Guevara, C. Y. (2017). Comportamientos de riesgo y abuso sexual en varones y mujeres con discapacidad visual o auditiva. Revista Española de Discapacidad, 5(1), 133-151.",
+    "Carvajal, B. et al. (2021). Salud sexual y reproductiva en tiempos del COVID-19: accesibilidad de mujeres sordas y con discapacidad auditiva. Revista Médica de Chile, 149(9), 1317-1321.",
+    "Confederación Estatal de Personas Sordas (CNSE). (2024). Guía práctica de accesibilidad para personas sordas. CNSE. ISBN 978-84-09-69626-0.",
+    "FAPAS CyL. (2023). Guía de Accesibilidad Comunicativa. Discapacidad Auditiva. Federación de Asociaciones de Padres y Amigos del Sordo de Castilla y León.",
+    "Sistema de las Naciones Unidas en Guatemala. (2023). Rotafolio: Lengua de Señas. Versión Final. OCR Guatemala.",
+    "Federación Mundial de Sordos (FMS). (2023). Directrices para lograr el reconocimiento de los derechos de las personas sordas a la lengua de señas. FMS / Fundación Nippon. ISBN 978-952-9648-24-5.",
+    "Confederación Estatal de Personas Sordas (CNSE). (2023). Acercamiento a los derechos lingüísticos de las personas sordas: más allá de la discapacidad. CNSE.",
+    "Ministerio de Educación del Estado Plurinacional de Bolivia. (2012). Guía educativa para familias y comunidades de personas sordas. Dirección General de Educación Especial.",
+    "Accesibilidad: Diseño basado en CNSE (2024) y principios del Diseño Universal de Aprendizaje (DUA). Textos fáciles según criterios de Lectura Fácil (ISO 24495-1:2023)."
   ]
 }

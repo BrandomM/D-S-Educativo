@@ -53,6 +53,18 @@ export function renderHome(container) {
   section.appendChild(grid);
   container.appendChild(hero);
   container.appendChild(section);
+
+  const sources = content.sources || [];
+  if (sources.length) {
+    const sourcesDetails = createEl('details', { class: 'sources-accordion' });
+    sourcesDetails.appendChild(
+      createEl('summary', { class: 'sources-summary' }, [ui.sourcesTitle || 'Fuentes y créditos'])
+    );
+    const sourcesList = createEl('ul', { class: 'sources-list' });
+    sources.forEach(src => sourcesList.appendChild(createEl('li', { class: 'sources-item' }, [src])));
+    sourcesDetails.appendChild(sourcesList);
+    container.appendChild(sourcesDetails);
+  }
 }
 
 export function renderRoute(container, audienceId) {

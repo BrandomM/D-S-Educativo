@@ -518,6 +518,103 @@ details[open] .sources-summary::before { transform: rotate(90deg); }
 /* ===== Resource button ===== */
 .resource-btn { margin-left: auto; }
 
+/* ===== Progress Indicator ===== */
+.progress-region {
+  margin-bottom: var(--space-6);
+  padding: var(--space-4) var(--space-6);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.progress-label {
+  text-align: center;
+  font-weight: 700;
+  color: var(--color-primary);
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--space-4);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.progress-steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+.progress-step {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  background: #e0dbd4;
+  color: var(--color-text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: var(--font-size-sm);
+  border: 2px solid #c0b8ae;
+  flex-shrink: 0;
+  transition: background 0.25s, border-color 0.25s, color 0.25s;
+}
+
+.progress-step--current {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+  box-shadow: 0 0 0 3px rgba(26,79,114,0.25);
+}
+
+.progress-step--done {
+  background: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: #fff;
+}
+
+.progress-connector {
+  flex: 1;
+  height: 3px;
+  background: #c0b8ae;
+  max-width: 4rem;
+  transition: background 0.25s;
+}
+
+.progress-connector--done {
+  background: var(--color-secondary);
+}
+
+/* ===== Completion Card ===== */
+.tree-card--completion {
+  background: #fffbf0;
+  border-color: #e8a000;
+  text-align: center;
+}
+
+.tree-completion-icon {
+  font-size: 3rem !important;
+  display: block;
+  margin-bottom: var(--space-4);
+}
+
+.tree-completion-title {
+  font-size: var(--font-size-xl) !important;
+  color: #7a4f00 !important;
+}
+
+.tree-card--completion .tree-node-prompt {
+  color: var(--color-text-muted);
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tree-card--completion .tree-result-actions {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 480px) {
   .resource-btn { margin-left: 0; width: 100%; }
   .btn { width: 100%; }
@@ -525,4 +622,5 @@ details[open] .sources-summary::before { transform: rotate(90deg); }
   #main-content { padding: var(--space-6) var(--space-4); }
   .content-card { grid-template-columns: 1fr; grid-template-areas: "icon" "title" "text"; }
   .tree-nav { flex-direction: column; }
+  .progress-connector { max-width: 2rem; }
 }

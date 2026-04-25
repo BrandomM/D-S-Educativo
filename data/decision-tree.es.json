@@ -1,42 +1,139 @@
 {
-  "startNode": "n1",
-  "nodes": {
-    "n1": {
-      "id": "n1",
-      "icon": "🤔",
-      "title": "Situación inicial — [REEMPLAZAR]",
-      "promptFull": "Texto de la situación inicial (placeholder). Describe aquí el escenario o pregunta que el usuario debe evaluar. Reemplaza este texto con la situación educativa real.",
-      "promptEasy": "Texto fácil de la situación inicial (placeholder). Reemplaza con una pregunta sencilla y clara.",
-      "choices": [
-        {
-          "id": "c1",
-          "labelFull": "Opción A — [REEMPLAZAR: descripción de la opción]",
-          "labelEasy": "Opción A — [REEMPLAZAR: versión simple]",
-          "next": "n2"
+  "scenarios": [
+    {
+      "id": "s1",
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "id": "n1",
+          "icon": "🤔",
+          "title": "Clase sin intérprete",
+          "promptFull": "Eres estudiante universitario/a sordo/a. Llegas a la clase de educación para la salud —donde se hablará de sexualidad y relaciones— y no hay intérprete de Lengua de Señas Colombiana (LSC). El docente empieza a hablar sin considerar tu situación. ¿Qué haces?",
+          "promptEasy": "Estás en clase y no hay intérprete de LSC. El docente empieza a hablar. ¿Qué haces tú?",
+          "choices": [
+            {
+              "id": "c1",
+              "labelFull": "Voy a la coordinación académica o a bienestar universitario para exigir el servicio de intérprete certificado.",
+              "labelEasy": "Voy a pedir un intérprete a la coordinación.",
+              "next": "n2"
+            },
+            {
+              "id": "c2",
+              "labelFull": "Me quedo en silencio y trato de entender lo que puedo leyendo los labios o mirando las diapositivas.",
+              "labelEasy": "Me quedo callado/a y trato de entender solo/a.",
+              "next": "n3"
+            }
+          ]
         },
-        {
-          "id": "c2",
-          "labelFull": "Opción B — [REEMPLAZAR: descripción de la opción]",
-          "labelEasy": "Opción B — [REEMPLAZAR: versión simple]",
-          "next": "n3"
+        "n2": {
+          "id": "n2",
+          "icon": "✅",
+          "title": "¡Ejerciste tu derecho!",
+          "promptFull": "Muy bien. Exigir el intérprete es ejercer un derecho reconocido por la Ley 982 de 2005 (Art. 4) y la Ley 1618 de 2013 en Colombia. La institución tiene la obligación de garantizarte este servicio. Si bienestar universitario no responde, puedes acudir a la personería estudiantil o a la Defensoría del Pueblo. Recuerda: no es un favor, es un derecho. Mientras consigues el intérprete, solicita grabación de la clase, materiales escritos o el contacto del docente para resolver dudas.",
+          "promptEasy": "Hiciste bien. Pedir intérprete es tu derecho. La universidad debe dártelo. Si no lo hacen, puedes quejarte con la personería estudiantil.",
+          "choices": []
+        },
+        "n3": {
+          "id": "n3",
+          "icon": "🔄",
+          "title": "Reflexiona: quedarse sin acceso no es una solución",
+          "promptFull": "Entendemos que a veces parece más fácil no generar conflicto. Pero quedarse sin acceso a información sobre salud sexual afecta tu bienestar y tus derechos. Los estudios muestran que los jóvenes sordos sin información accesible tienen mayor riesgo de abuso y conductas de riesgo. La Ley colombiana te protege: tienes derecho a exigir intérprete sin que eso afecte tu calificación ni tu relación con el docente. La próxima vez, intenta hablar con el docente antes de la clase o envía un correo a bienestar universitario.",
+          "promptEasy": "Es normal querer evitar conflictos. Pero sin intérprete pierdes información importante. Puedes hablar con el docente antes de la siguiente clase.",
+          "choices": []
         }
-      ]
+      }
     },
-    "n2": {
-      "id": "n2",
-      "icon": "✅",
-      "title": "Resultado A — [REEMPLAZAR]",
-      "promptFull": "Texto del Resultado A (placeholder). Explica aquí las implicaciones, consecuencias o recomendaciones que corresponden a la Opción A. Reemplaza con contenido educativo real.",
-      "promptEasy": "Resultado A en palabras fáciles (placeholder). Reemplaza con explicación breve y sencilla.",
-      "choices": []
+    {
+      "id": "s2",
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "id": "n1",
+          "icon": "💭",
+          "title": "Tu hijo/a tiene preguntas sobre sexualidad",
+          "promptFull": "Tu hijo/a sordo/a de 16 años intenta hacerte preguntas sobre su cuerpo y las relaciones sexuales. Tú no sabes Lengua de Señas Colombiana. Ves en su expresión que algo importante le preocupa, pero no logras entender qué. ¿Qué haces?",
+          "promptEasy": "Tu hijo/a sordo/a quiere preguntarte algo sobre sexualidad. Tú no sabes LSC. ¿Qué haces?",
+          "choices": [
+            {
+              "id": "c1",
+              "labelFull": "Busco ayuda: un intérprete de confianza, videos educativos en LSC o le muestro esta app para que podamos explorarla juntos/as.",
+              "labelEasy": "Busco un intérprete o videos en LSC para hablar juntos.",
+              "next": "n2"
+            },
+            {
+              "id": "c2",
+              "labelFull": "Le digo con gestos que ya hablaremos más tarde, cuando sepa cómo decirle lo que necesita saber.",
+              "labelEasy": "Le digo que ya hablamos después.",
+              "next": "n3"
+            }
+          ]
+        },
+        "n2": {
+          "id": "n2",
+          "icon": "✅",
+          "title": "¡Muy bien! Buscaste apoyo para comunicarte",
+          "promptFull": "Buscar un intérprete, un video en LSC o apoyarte en esta app muestra que priorizas la comunicación real con tu hijo/a. Las investigaciones demuestran que las familias que aprenden LSC y usan recursos visuales tienen hijos más protegidos frente al abuso y con mayor bienestar emocional. Aunque no sepas toda la LSC, el esfuerzo cuenta mucho. También puedes contactar a FENASCOL (Federación Nacional de Sordos de Colombia) o a la institución educativa de tu hijo/a para acceder a programas de capacitación en LSC para familias, financiados por ley.",
+          "promptEasy": "Muy bien. Buscar un intérprete o videos en LSC es lo correcto. Tu hijo/a verá que te importa comunicarte. Puedes aprender más LSC en programas gratuitos.",
+          "choices": []
+        },
+        "n3": {
+          "id": "n3",
+          "icon": "🔄",
+          "title": "Esperar tiene costos: reflexiona",
+          "promptFull": "Postergarlo puede parecer prudente, pero los estudios muestran que los jóvenes sordos que no reciben respuestas a tiempo sobre sexualidad son más vulnerables al abuso y a la desinformación. Sin lengua de señas en casa, tu hijo/a solo aprende lo que está en su campo visual directo: no puede entender conceptos abstractos sobre consentimiento, cuidado del cuerpo ni relaciones seguras. El primer paso no tiene que ser perfecto: una imagen, un video en YouTube en LSC, o mostrar esta app juntos/as puede abrir la conversación hoy.",
+          "promptEasy": "Esperar tiene consecuencias. Tu hijo/a necesita respuestas ahora. Puedes empezar con una imagen o un video en LSC aunque no sepas todo.",
+          "choices": []
+        }
+      }
     },
-    "n3": {
-      "id": "n3",
-      "icon": "🔄",
-      "title": "Resultado B — [REEMPLAZAR]",
-      "promptFull": "Texto del Resultado B (placeholder). Explica aquí las implicaciones, consecuencias o recomendaciones que corresponden a la Opción B. Reemplaza con contenido educativo real.",
-      "promptEasy": "Resultado B en palabras fáciles (placeholder). Reemplaza con explicación breve y sencilla.",
-      "choices": []
+    {
+      "id": "s3",
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "id": "n1",
+          "icon": "🔍",
+          "title": "Un/a estudiante sordo/a reporta abuso",
+          "promptFull": "Eres docente universitario/a. Una estudiante sorda se acerca a ti y, usando señas básicas y escritura, te comunica que su pareja la ha presionado a tener relaciones sexuales sin su consentimiento. Ella parece asustada y no sabe a dónde ir. ¿Cómo actúas?",
+          "promptEasy": "Una estudiante sorda te dice que su pareja la presionó a tener relaciones sin su permiso. Ella tiene miedo. ¿Qué haces tú?",
+          "choices": [
+            {
+              "id": "c1",
+              "labelFull": "La acompaño personalmente a bienestar estudiantil, gestiono un intérprete de LSC para la cita y le explico el proceso de denuncia en formatos visuales accesibles.",
+              "labelEasy": "La acompaño a bienestar, pido un intérprete y le explico qué puede hacer.",
+              "next": "n2"
+            },
+            {
+              "id": "c2",
+              "labelFull": "Le señalo la oficina de bienestar y le digo que vaya a pedir ayuda allá, sin acompañarla.",
+              "labelEasy": "Le indico dónde está bienestar y le digo que vaya sola.",
+              "next": "n3"
+            }
+          ]
+        },
+        "n2": {
+          "id": "n2",
+          "icon": "✅",
+          "title": "Acompañamiento con accesibilidad: la respuesta correcta",
+          "promptFull": "Correcto. El acompañamiento activo con accesibilidad comunicativa es lo que garantiza los derechos de la estudiante. Sin intérprete de LSC, ella no podrá comunicar lo sucedido con precisión, lo que puede invalidar el proceso o revictimizarla. Como docente, también puedes solicitar a tu institución que incluya protocolos de atención a víctimas con discapacidad auditiva con intérprete. Recuerda reportar al coordinador académico y, si hay riesgo inmediato, llamar a la Línea 155 (Fiscalía General). Tu rol es acompañar y facilitar, no investigar.",
+          "promptEasy": "Muy bien. Acompañarla con intérprete es lo correcto. Ella necesita comunicarse bien para que la ayuden. Tu papel es acompañar y facilitar, no investigar.",
+          "choices": []
+        },
+        "n3": {
+          "id": "n3",
+          "icon": "🔄",
+          "title": "Sin acompañamiento, los riesgos aumentan",
+          "promptFull": "Enviar sola a una estudiante sorda —sin intérprete ni acompañante— a reportar un abuso puede resultar en que no se le entienda, que el proceso no avance o que ella desista por las barreras comunicativas. Las investigaciones muestran que las personas con discapacidad auditiva enfrentan obstáculos adicionales en el sistema de justicia por falta de acceso lingüístico. La próxima vez: acompáñala, solicita intérprete certificado y asegúrate de que el personal de bienestar reciba la información de forma accesible. Tu presencia marca la diferencia entre que el caso avance o quede en silencio.",
+          "promptEasy": "Ir sola sin intérprete puede hacer que no la entiendan bien. La próxima vez acompáñala y pide un intérprete. Eso ayuda a que reciba la ayuda que necesita.",
+          "choices": []
+        }
+      }
     }
+  ],
+  "completion": {
+    "icon": "🎉",
+    "title": "¡Completaste el recurso interactivo!",
+    "messageFull": "Has recorrido las tres situaciones de Señas de Vida. Cada situación representa un reto real que enfrentan los estudiantes universitarios sordos, sus familias y sus docentes. Esperamos que este ejercicio te haya dado herramientas concretas para actuar: exigir derechos, buscar comunicación accesible y acompañar con empatía. Recuerda que la educación sexual es un derecho humano universal, y que la Lengua de Señas Colombiana es la primera lengua de las personas sordas. Puedes volver a explorar las situaciones cuando quieras.",
+    "messageEasy": "¡Lo lograste! Revisaste las tres situaciones. Esperamos que hayas aprendido algo útil. La educación sexual es un derecho de todas las personas, también de quienes usan LSC. Puedes volver a empezar cuando quieras."
   }
 }
