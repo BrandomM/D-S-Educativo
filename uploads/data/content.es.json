@@ -39,7 +39,7 @@
       "label": "Docente",
       "labelEasy": "Soy docente",
       "icon": "📚",
-      "description": "Orientaciones pedagógicas y marco legal para tratar educación sexual con estudiantes sordos en la universidad.",
+      "description": "Orientaciones pedagógicas y marco legal para abordar educación sexual con estudiantes sordos en la universidad.",
       "descriptionEasy": "Aquí hay información para docentes universitarios."
     }
   ],
@@ -71,7 +71,7 @@
           "icon": "🔍",
           "title": "Tu identidad como persona sorda",
           "titleEasy": "Quién eres: identidad sorda",
-          "textFull": "Ser sordo/a no es solo una condición médica: eres parte de una comunidad lingüística y cultural con historia, valores y lengua propios. La {glosario:lsc} es tu lengua materna, no un apoyo de segunda categoría. Tu identidad sorda se construye en la relación con tus pares sordos, con tu comunidad y con el uso cotidiano de tu lengua. Esa identidad incluye también tu sexualidad: tienes derecho a vivirla como quieras, a tener relaciones que te hagan bien y a recibir información sobre salud sexual en tu propia lengua. Saber quién eres hace más fácil tomar decisiones sobre tu cuerpo.",
+          "textFull": "Ser sordo/a no es solo una condición médica: eres parte de una comunidad lingüística y cultural con historia, valores y lengua propios. La {glosario:lsc} es tu lengua materna, no un apoyo de segunda categoría. Tu identidad sorda se construye en la relación con tus pares sordos, con tu comunidad y con el uso cotidiano de tu lengua. Esta identidad incluye también tu sexualidad: tienes derecho a vivirla libremente, a construir relaciones afectivas plenas y a acceder a información sobre salud sexual en tu propia lengua. Conocer tu identidad fortalece tu autoestima y tu capacidad de tomar decisiones sobre tu cuerpo.",
           "textEasy": "Eres parte de una comunidad con su propia lengua y cultura. Tu identidad sorda es algo valioso. También tienes derecho a vivir tu sexualidad con libertad."
         }
       ]
@@ -87,7 +87,7 @@
           "icon": "🤝",
           "title": "Etapas de aceptación",
           "titleEasy": "Cómo sienten las familias",
-          "textFull": "Cuando una familia descubre que un hijo/a es sordo/a, atraviesa cinco etapas: confusión, negación (búsqueda de curas), tristeza y depresión, aceptación, y finalmente reorganización y reafirmación. Este proceso es normal y no ocurre igual en todas las familias. El paso que más cambia las cosas es la reorganización: cuando la familia aprende la {glosario:lsc} y se conecta con la comunidad sorda. En ese momento el niño o niña sordo/a encuentra modelos de adultos sordos, desarrolla su identidad lingüística y mejora su bienestar emocional. Comunicarse de verdad con tu hijo/a es lo más importante que puedes hacer.",
+          "textFull": "Cuando una familia descubre que un hijo/a es sordo/a, atraviesa cinco etapas: confusión, negación (búsqueda de curas), tristeza y depresión, aceptación, y finalmente reorganización y reafirmación. Este proceso es normal y no ocurre igual en todas las familias. El paso más transformador es la reorganización: cuando la familia aprende la {glosario:lsc} y se vincula con la comunidad sorda. En ese momento el niño o niña sordo/a encuentra modelos de adultos sordos, desarrolla su identidad lingüística y mejora su bienestar emocional. No hay amor más efectivo que comunicarse de verdad con tu hijo/a.",
           "textEasy": "Las familias sienten muchas emociones al descubrir la sordera. Eso es normal. El paso más importante es aprender LSC para hablar de verdad con tu hijo/a."
         },
         {
@@ -95,7 +95,7 @@
           "icon": "❤️",
           "title": "Comunicar en LSC desde casa",
           "titleEasy": "Por qué aprender LSC en casa",
-          "textFull": "El 95% de los niños sordos nace en familias oyentes. Sin la {glosario:lsc} en casa, el niño sordo solo puede aprender lo que está en su campo visual inmediato: no comprende conceptos abstractos, normas ni advertencias de peligro, y no puede hacer preguntas sobre su cuerpo o sus emociones. Esto genera una {glosario:privacion_linguistica} con consecuencias graves para su desarrollo. Aprender LSC va mucho más allá de comunicarse: es darle a tu hijo/a una primera lengua de verdad. La Ley 982 de 2005 en Colombia obliga al gobierno a financiar programas para que padres oyentes de hijos sordos aprendan LSC. Puedes solicitarlo en tu municipio o institución educativa.",
+          "textFull": "El 95% de los niños sordos nace en familias oyentes. Sin la {glosario:lsc} en casa, el niño sordo solo puede aprender lo que está en su campo visual inmediato: no comprende conceptos abstractos, normas ni advertencias de peligro, y no puede hacer preguntas sobre su cuerpo o sus emociones. Esto genera una {glosario:privacion_linguistica} con consecuencias graves para su desarrollo. Aprender LSC no es solo una herramienta de comunicación: es garantizar que tu hijo/a tenga una primera lengua completa. La Ley 982 de 2005 en Colombia obliga al gobierno a financiar programas para que padres oyentes de hijos sordos aprendan LSC. Puedes solicitarlo en tu municipio o institución educativa.",
           "textEasy": "Sin LSC en casa, tu hijo/a no puede aprender conceptos importantes. Aprender LSC juntos es lo más valioso que puedes hacer. En Colombia hay programas gratuitos para familias."
         },
         {
@@ -119,7 +119,7 @@
           "icon": "🏫",
           "title": "Marco legal colombiano",
           "titleEasy": "Las leyes que protegen a tus estudiantes",
-          "textFull": "Como docente universitario/a en Colombia tienes obligaciones legales concretas. La Ley 324/1996 reconoce la {glosario:lsc} como lengua natural de las personas sordas. La Ley 982/2005 prohíbe toda discriminación por identidad lingüística (Art. 34). La Ley 1618/2013 garantiza el pleno ejercicio de derechos de personas con discapacidad. La Ley 2049/2020 creó el Consejo Nacional de Planeación de la LSC con representantes de estudiantes universitarios sordos. El {glosario:modelo_social} que sustenta esta legislación lo dice claro: el reto no es rehabilitar al estudiante, sino eliminar las barreras del entorno. Conocer este marco es lo que te permite actuar de forma diferente en el aula.",
+          "textFull": "Como docente universitario/a en Colombia tienes obligaciones legales concretas. La Ley 324/1996 reconoce la {glosario:lsc} como lengua natural de las personas sordas. La Ley 982/2005 prohíbe toda discriminación por identidad lingüística (Art. 34). La Ley 1618/2013 garantiza el pleno ejercicio de derechos de personas con discapacidad. La Ley 2049/2020 creó el Consejo Nacional de Planeación de la LSC con representantes de estudiantes universitarios sordos. El {glosario:modelo_social} que sustenta esta legislación te indica que el reto no es rehabilitar al estudiante, sino eliminar las barreras del entorno. Conocer el marco legal es el primer paso para transformar la práctica pedagógica.",
           "textEasy": "En Colombia hay leyes que protegen a tus estudiantes sordos. Debes respetar su derecho a comunicarse en LSC. Si no hay intérprete, puedes exigirlo a la institución."
         },
         {
@@ -127,7 +127,7 @@
           "icon": "✏️",
           "title": "Diseño Universal para educación sexual accesible",
           "titleEasy": "Cómo enseñar de forma accesible",
-          "textFull": "Aplicar el Diseño Universal de Aprendizaje en educación sexual con estudiantes sordos implica al menos cuatro ajustes: usar vídeos con intérprete de {glosario:lsc} en lugar de solo texto escrito; garantizar buena iluminación y posicionamiento frontal en el aula; ofrecer instrucciones en formatos múltiples (visual, texto fácil, señado); y solicitar intérprete certificado para sesiones sobre salud sexual. Las investigaciones en Chile y México confirman que el vídeo con intérprete de lengua de señas es la fuente de información más efectiva para esta población. La {glosario:privacion_linguistica} no termina en la infancia: el aula universitaria sin intérprete la prolonga.",
+          "textFull": "Aplicar el Diseño Universal de Aprendizaje en educación sexual con estudiantes sordos implica al menos cuatro ajustes: usar vídeos con intérprete de {glosario:lsc} y no solo texto escrito; garantizar buena iluminación y posicionamiento frontal en el aula; ofrecer instrucciones en formatos múltiples (visual, texto fácil, señado); y solicitar intérprete certificado para sesiones sobre salud sexual. Las investigaciones en Chile y México confirman que el vídeo con intérprete de lengua de señas es la fuente de información más efectiva para esta población. Prevenir la {glosario:privacion_linguistica} también ocurre en el aula universitaria cuando garantizas acceso comunicativo real.",
           "textEasy": "Para enseñar sobre sexualidad a estudiantes sordos usa videos con intérprete de LSC. Asegura buena iluminación en el aula. Habla siempre de frente para que puedan verte bien."
         },
         {
@@ -135,7 +135,7 @@
           "icon": "📊",
           "title": "Mitos sobre la sexualidad de personas sordas",
           "titleEasy": "Ideas falsas que debemos cambiar",
-          "textFull": "El mito más dañino es que las personas sordas son asexuales o tienen menor interés en la sexualidad. Los datos contradicen esto: más del 53% de jóvenes con discapacidad auditiva son sexualmente activos, muchos antes de los 18 años y con bajo uso de anticonceptivos. Este mito genera una doble exclusión: los docentes no incluyen educación sexual en sus programas y las familias no hablan del tema. Desde el {glosario:modelo_social}, la CDPD establece que negar entornos educativos apropiados —incluyendo educación sexual accesible— a estudiantes sordos es discriminación directa. Incluir estos contenidos en el aula es una obligación ética y legal, no una decisión pedagógica libre.",
+          "textFull": "El mito más dañino es que las personas sordas son asexuales o tienen menor interés en la sexualidad. Los datos contradicen esto: más del 53% de jóvenes con discapacidad auditiva son sexualmente activos, muchos antes de los 18 años y con bajo uso de anticonceptivos. Este mito genera una doble exclusión: los docentes no incluyen educación sexual en sus programas y las familias no hablan del tema. Desde el {glosario:modelo_social}, la CDPD establece que negar entornos educativos apropiados —incluyendo educación sexual accesible— a estudiantes sordos es discriminación directa. Incluir estos contenidos en el aula no es opcional: es una obligación ética y legal.",
           "textEasy": "Las personas sordas sí tienen sexualidad, como todas las personas. No hablar de esto en clase es una forma de discriminación. Incluye educación sexual con intérprete de LSC."
         }
       ]
@@ -144,7 +144,7 @@
   "glossary": {
     "lsc": {
       "term": "Lengua de Señas Colombiana (LSC)",
-      "definitionFull": "La Lengua de Señas Colombiana (LSC) es la lengua natural y materna de la comunidad sorda colombiana. Es una lengua viso-gestual con gramática, léxico y sintaxis propios, independiente del español. Fue reconocida por primera vez en la Ley 324 de 1996 y su planificación está a cargo del Consejo Nacional de Planeación de la LSC creado por la Ley 2049 de 2020. La LSC no es un apoyo ni una herramienta auxiliar. Es el primer idioma de las personas sordas y el eje de su identidad lingüística y cultural.",
+      "definitionFull": "La Lengua de Señas Colombiana (LSC) es la lengua natural y materna de la comunidad sorda colombiana. Es una lengua viso-gestual con gramática, léxico y sintaxis propios, independiente del español. Fue reconocida por primera vez en la Ley 324 de 1996 y su planificación está a cargo del Consejo Nacional de Planeación de la LSC creado por la Ley 2049 de 2020. La LSC no es un 'apoyo' ni una herramienta auxiliar: es el primer idioma de las personas sordas y el eje de su identidad lingüística y cultural.",
       "definitionEasy": "La LSC es la lengua de las personas sordas en Colombia. Es una lengua completa con sus propias reglas. No es el español con las manos."
     },
     "modelo_social": {

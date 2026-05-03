@@ -4,6 +4,13 @@
 
 SPA estática educativa (HTML/CSS/JS vanilla sin frameworks) para jóvenes universitarios con discapacidad auditiva. Tema: discapacidad y sexualidad (todos los textos de contenido son placeholders neutrales). Desplegable en GitHub Pages.
 
+**Derecho sexual y reproductivo de origen:** Derecho a una educación integral para la sexualidad a lo largo de la vida. El proyecto existe para cubrir la brecha de educación sexual accesible en LSC para personas sordas universitarias.
+
+**Barreras identificadas para la población (jóvenes universitarios sordos):**
+- Brecha de comunicación familiar (familiares oyentes sin conocimiento en LSC)
+- Ausencia de intérpretes en las aulas
+- Prejuicios e infantilización
+
 ## Stack técnico
 
 - HTML5 semántico + CSS custom properties

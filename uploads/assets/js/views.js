@@ -34,13 +34,7 @@ export function renderHome(container) {
       'aria-label': store.easyText ? aud.labelEasy : aud.label
     });
 
-    const imgMap = { estudiante: 'assets/img/Estudiante.png', familia: 'assets/img/Familiar.png', docente: 'assets/img/Docente.png' };
-    let icon;
-    if (imgMap[aud.id]) {
-      icon = createEl('img', { class: 'audience-icon audience-icon--img', src: imgMap[aud.id], alt: '', 'aria-hidden': 'true' });
-    } else {
-      icon = createEl('span', { class: 'audience-icon', 'aria-hidden': 'true' }, [aud.icon]);
-    }
+    const icon = createEl('span', { class: 'audience-icon', 'aria-hidden': 'true' }, [aud.icon]);
     const label = createEl('span', { class: 'audience-label' }, [
       store.easyText ? aud.labelEasy : aud.label
     ]);

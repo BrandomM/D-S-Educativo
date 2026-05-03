@@ -29,7 +29,7 @@
           "id": "n2",
           "icon": "✅",
           "title": "¡Ejerciste tu derecho!",
-          "promptFull": "Muy bien. Exigir el intérprete es ejercer un derecho reconocido por la Ley 982 de 2005 (Art. 4) y la Ley 1618 de 2013 en Colombia. La institución tiene la obligación de garantizarte este servicio. Si bienestar universitario no responde, puedes acudir a la personería estudiantil o a la Defensoría del Pueblo. No lo olvides: lo que acabas de exigir no es un favor de la institución. Es tu derecho. Mientras consigues el intérprete, solicita grabación de la clase, materiales escritos o el contacto del docente para resolver dudas.",
+          "promptFull": "Muy bien. Exigir el intérprete es ejercer un derecho reconocido por la Ley 982 de 2005 (Art. 4) y la Ley 1618 de 2013 en Colombia. La institución tiene la obligación de garantizarte este servicio. Si bienestar universitario no responde, puedes acudir a la personería estudiantil o a la Defensoría del Pueblo. Recuerda: no es un favor, es un derecho. Mientras consigues el intérprete, solicita grabación de la clase, materiales escritos o el contacto del docente para resolver dudas.",
           "promptEasy": "Hiciste bien. Pedir intérprete es tu derecho. La universidad debe dártelo. Si no lo hacen, puedes quejarte con la personería estudiantil.",
           "choices": []
         },
@@ -80,7 +80,7 @@
           "id": "n3",
           "icon": "🔄",
           "title": "Esperar tiene costos: reflexiona",
-          "promptFull": "Postergarlo puede parecer prudente, pero los estudios muestran que los jóvenes sordos que no reciben respuestas a tiempo sobre sexualidad son más vulnerables al abuso y a la desinformación. Sin lengua de señas en casa, tu hijo/a solo aprende lo que está en su campo visual directo: no puede entender conceptos abstractos sobre consentimiento, cuidado del cuerpo ni relaciones seguras. No tienes que hacerlo perfecto la primera vez: una imagen, un video en YouTube en LSC, o mostrar esta app juntos/as puede abrir la conversación hoy.",
+          "promptFull": "Postergarlo puede parecer prudente, pero los estudios muestran que los jóvenes sordos que no reciben respuestas a tiempo sobre sexualidad son más vulnerables al abuso y a la desinformación. Sin lengua de señas en casa, tu hijo/a solo aprende lo que está en su campo visual directo: no puede entender conceptos abstractos sobre consentimiento, cuidado del cuerpo ni relaciones seguras. El primer paso no tiene que ser perfecto: una imagen, un video en YouTube en LSC, o mostrar esta app juntos/as puede abrir la conversación hoy.",
           "promptEasy": "Esperar tiene consecuencias. Tu hijo/a necesita respuestas ahora. Puedes empezar con una imagen o un video en LSC aunque no sepas todo.",
           "choices": []
         }
@@ -133,7 +133,7 @@
   "completion": {
     "icon": "🎉",
     "title": "¡Completaste el recurso interactivo!",
-    "messageFull": "Has recorrido las tres situaciones de Señas de Vida. Cada situación representa un reto real que enfrentan los estudiantes universitarios sordos, sus familias y sus docentes. Esperamos que estas situaciones te hayan dado ideas y argumentos para actuar: exigir derechos, buscar comunicación accesible y acompañar de verdad. La educación sexual es un derecho de todos, y la Lengua de Señas Colombiana es la primera lengua de las personas sordas, no una adaptación del español. Puedes volver a explorar las situaciones cuando quieras.",
+    "messageFull": "Has recorrido las tres situaciones de Señas de Vida. Cada situación representa un reto real que enfrentan los estudiantes universitarios sordos, sus familias y sus docentes. Esperamos que este ejercicio te haya dado herramientas concretas para actuar: exigir derechos, buscar comunicación accesible y acompañar con empatía. Recuerda que la educación sexual es un derecho humano universal, y que la Lengua de Señas Colombiana es la primera lengua de las personas sordas. Puedes volver a explorar las situaciones cuando quieras.",
     "messageEasy": "¡Lo lograste! Revisaste las tres situaciones. Esperamos que hayas aprendido algo útil. La educación sexual es un derecho de todas las personas, también de quienes usan LSC. Puedes volver a empezar cuando quieras."
   }
 }

@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:elandroidefeliz.com)",
+      "WebFetch(domain:luisorlandolencarpio.substack.com)",
+      "WebFetch(domain:www.genbeta.com)",
+      "WebFetch(domain:santiagocosme.com)",
+      "WebFetch(domain:hastewire.com)",
+      "WebFetch(domain:www.applesfera.com)",
+      "WebFetch(domain:www.pageon.ai)",
+      "WebFetch(domain:educacion.bilateria.org)",
+      "WebFetch(domain:bypass.hix.ai)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:www.lanacion.com.ar)",
+      "WebFetch(domain:growitschool.com)",
+      "WebFetch(domain:blog.donweb.com)",
+      "WebFetch(domain:www.uvrcorrectoresdetextos.com)",
+      "WebFetch(domain:ai.tenorshare.com)",
+      "WebFetch(domain:isgen.ai)",
+      "WebFetch(domain:humanizeai.tools)",
+      "WebFetch(domain:gist.github.com)",
+      "WebFetch(domain:walterwrites.ai)",
+      "WebFetch(domain:www.habitantesiete.com)",
+      "WebFetch(domain:www.xataka.com)",
+      "WebFetch(domain:uncheck.ai)"
+    ]
+  }
+}
